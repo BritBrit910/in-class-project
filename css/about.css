@@ -1,0 +1,78 @@
+/* ABOUT HERO SECTION */
+.about-hero {
+    background-image: url('../img/graffiti.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    font-size: 3em;
+    background-attachment: fixed;
+}
+
+.about-hero>h1 {
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+/* Column begins here */
+.column {
+    box-sizing: border-box;
+    width: 33.33333%;
+    height: 500px;
+    padding: 0px 10px;
+    float: left;
+    position: relative;
+}
+
+.column p {
+    text-align: justify;
+    line-height: 2em;
+}
+
+.column button {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.column h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+#col-1 {
+    background-color: #ff3300;
+    color: #800000;
+}
+
+#col-2 {
+    background-color: #0099ff;
+    color: #0047b3;
+}
+
+#col-3 {
+    background-color: #006600;
+    color: #003300;
+}
+
+#col-1 button {
+    background-color: #800000;
+    color: #fff;
+}
+
+#col-2 button {
+    background-color: #0047b3;
+    color: #fff;
+}
+
+#col-3 button {
+    background-color: #003300;
+    color: #fff;
+}
